@@ -1,2 +1,15 @@
 # FreemarkDemo
 使用freemarker 编辑word模板，填充数据后，导出。
+
+使用方法：
+1 制作word模板（包含一张图片）
+2 将word保存为2003 xml文件
+3 对key使用${}包起来
+4 xml后缀改为ftl
+5 在java类中填充数据（包含图片数据）
+
+以上内容均来自网络，经整理后得到，如有疑问请联系作者。
+
+参考链接：
+http://blog.csdn.net/djwjsw/article/details/7869231（操作word比较）
+http://www.cnblogs.com/dyllove98/archive/2013/07/10/3181579.html（freemarker编辑图片）
